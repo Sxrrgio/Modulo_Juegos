@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storytelling</title>
+    <link rel="stylesheet" href="storytelling2.css">
+</head>
+<body>
+    <div id="historia" class="container">
+        <h2 id="chapter">Capítulo 1</h2>
+        <p id="mensaje">Estás en un bosque oscuro. ¿Qué camino tomas?</p>
+        <div id="botones">
+            <button onclick="ElegirCamino(2)">Seguir A Los Forasteros</button>
+            <button onclick="ElegirCamino(3)">Quedarte En El Pueblo</button>
+        </div>
+    </div>
+    <select id="selectorIdioma">
+        <option value="es">Español</option>
+        <option value="en">English</option>
+        <option value="fr">Francais</option>
+        <option value="de">Deustch</option>
+    </select>
+    <script src="storytelling2.js" defer></script>
+</body>
+</html>

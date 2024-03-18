@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="simon.css">
+  <title>Simón Dice</title>
+</head>
+<body>
+  <select id="selectorIdioma">
+    <option value="es">Español</option>
+    <option value="en">English</option>
+    <option value="fr">Francais</option>
+    <option value="de">Deustch</option>
+</select>
+  
+<div id="general">
+  <div id="puntuacion"><div id="puntuacion">Puntuacion: </div><span id="valorPuntuacion">0</span></div>
+</div>
+<button id="empezar" onclick="comenzar()">Jugar</button><br>
+    <div id="colores">
+      <div class="color" id="rojo"></div>
+      <div class="color" id="verde" ></div>
+      <div class="color" id="azul" ></div>
+      <div class="color" id="amarillo" ></div>
+    </div>
+    <div id="puntuacionFinal"></div>
+  
+  <script src="simon.js"></script>
+  
+</body>
+</html>
